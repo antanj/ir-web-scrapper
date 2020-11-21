@@ -1,0 +1,12 @@
+id,parentId,title,url
+1,1,Snieglentės,https://www.boardshop.lt/snowboardingas/snieglentes
+2,1,Batai,https://www.boardshop.lt/snowboardingas/batai
+3,1,Apkaustai,https://www.boardshop.lt/snowboardingas/apkaustai
+4,1,Komplektai,https://www.boardshop.lt/snowboardingas/komplektai
+5,1,Rinkiniai,https://www.boardshop.lt/snowboardingas/rinkiniai
+6,1,Sniego drabužiai,https://www.boardshop.lt/snowboardingas/sniego-drabuziai
+7,1,Aksesuarai,https://www.boardshop.lt/snowboardingas/aksesuarai
+8,1,Populiariausi,https://www.boardshop.lt/snowboardingas/populiariausi
+9,2,Paspirtukų ,https://www.boardshop.lt/servisas/paspirtuku-remontas
+10,2,Snieglenčių,https://www.boardshop.lt/servisas/snieglenciu-servisas
+11,2,Slidžių servisas,https://www.boardshop.lt/index.php?route=product/category&path=71_78

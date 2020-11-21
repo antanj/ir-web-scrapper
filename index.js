@@ -79,7 +79,7 @@ const represent = {
         if (taxonomy) {
           console.log('... DONE');
           console.log('');
-          console.log('You can now explore the results');
+          console.log('You can now explore the results via the application or by exploring the results directory. The results are saved in both json and csv formats.');
         }
         break;
       }

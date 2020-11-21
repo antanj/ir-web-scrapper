@@ -1,9 +1,7 @@
-const axios = require('axios');
 const $ = require('cheerio');
 const { getPage } = require('./utils');
-const { saveToJson } = require('./fileSaver');
+const { saveToJSON, saveToCSV } = require('./fileSaver');
 const { getTopLevelTaxonomies, getLowestLevelTaxonomies } = require('./reader');
-const { product } = require('puppeteer');
 
 const rootUrl = 'https://www.boardshop.lt/';
 const topCategorySelector = 'li.category > a'; // must be an 'a' tag, otherwise, the algorythm needs to be modified
@@ -87,15 +85,18 @@ const scrapProducts = async (subcategories) => {
 
 const scrapWebsite = async () => {
   const taxonomy = await scrapTaxonomy();
-  saveToJson('taxonomy', taxonomy);
+  saveToJSON('taxonomy', taxonomy);
 
   const categories = await getTopLevelTaxonomies();
   const subcategories = await getLowestLevelTaxonomies();
   const products = await scrapProducts(subcategories);
 
-  saveToJson('categories', categories);
-  saveToJson('subcategories', subcategories);
-  saveToJson('products', products);
+  saveToJSON('categories', categories);
+  saveToJSON('subcategories', subcategories);
+  saveToJSON('products', products);
+  await saveToCSV('categories', categories);
+  await saveToCSV('subcategories', subcategories);
+  await saveToCSV('products', products);
   return taxonomy;
 };
 
