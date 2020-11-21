@@ -1,4 +1,4 @@
-# ir-web-scrapper"
+# ir-web-scrapper
 
 A program create for the "Information Retrieval" course in Vytautas Magnus University.
 
