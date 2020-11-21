@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "title": "Snowboardingas",
+        "url": "https://www.boardshop.lt/snowboardingas",
+        "children": [
+            {
+                "id": 1,
+                "parentId": 1,
+                "title": "Snieglentės",
+                "url": "https://www.boardshop.lt/snowboardingas/snieglentes"
+            },
+            {
+                "id": 2,
+                "parentId": 1,
+                "title": "Batai",
+                "url": "https://www.boardshop.lt/snowboardingas/batai"
+            },
+            {
+                "id": 3,
+                "parentId": 1,
+                "title": "Apkaustai",
+                "url": "https://www.boardshop.lt/snowboardingas/apkaustai"
+            },
+            {
+                "id": 4,
+                "parentId": 1,
+                "title": "Komplektai",
+                "url": "https://www.boardshop.lt/snowboardingas/komplektai"
+            },
+            {
+                "id": 5,
+                "parentId": 1,
+                "title": "Rinkiniai",
+                "url": "https://www.boardshop.lt/snowboardingas/rinkiniai"
+            },
+            {
+                "id": 6,
+                "parentId": 1,
+                "title": "Sniego drabužiai",
+                "url": "https://www.boardshop.lt/snowboardingas/sniego-drabuziai"
+            },
+            {
+                "id": 7,
+                "parentId": 1,
+                "title": "Aksesuarai",
+                "url": "https://www.boardshop.lt/snowboardingas/aksesuarai"
+            },
+            {
+                "id": 8,
+                "parentId": 1,
+                "title": "Populiariausi",
+                "url": "https://www.boardshop.lt/snowboardingas/populiariausi"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Servisas",
+        "url": "https://www.boardshop.lt/servisas",
+        "children": [
+            {
+                "id": 9,
+                "parentId": 2,
+                "title": "Paspirtukų ",
+                "url": "https://www.boardshop.lt/servisas/paspirtuku-remontas"
+            },
+            {
+                "id": 10,
+                "parentId": 2,
+                "title": "Snieglenčių",
+                "url": "https://www.boardshop.lt/servisas/snieglenciu-servisas"
+            },
+            {
+                "id": 11,
+                "parentId": 2,
+                "title": "Slidžių servisas",
+                "url": "https://www.boardshop.lt/index.php?route=product/category&path=71_78"
+            }
+        ]
+    }
+]
